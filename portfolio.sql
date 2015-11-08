@@ -1,0 +1,9 @@
+CREATE TABLE PF_USERS (
+  name VARCHAR(64) PRIMARY KEY,
+  password VARCHAR(64) NOT NULL
+);
+
+INSERT INTO PF_USERS VALUES ('root', 'root');
+INSERT INTO PF_USERS VALUES ('anon', 'anon');
+
+QUIT;
